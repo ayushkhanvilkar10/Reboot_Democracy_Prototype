@@ -1,0 +1,151 @@
+.post-container {
+  width: 50%;
+  margin: 60px auto;
+  font-family: 'Interphases Regular', sans-serif;
+}
+
+.post-title {
+  font-family: 'Interphases Bold', sans-serif;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0 0;
+  margin-bottom: 0px;
+}
+
+.author-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.author-name {
+  font-family: 'Interphases Bold', sans-serif;
+  font-size: 1.125rem;
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.author-name:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  font-family: 'Interphases Regular', sans-serif;
+  font-size: 0.875rem;
+  color: #666;
+  margin: 0;
+}
+
+.share-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 20px 0;
+}
+
+.share-button {
+  background: #FFB446;
+  color: #000000;
+  border: 2px solid #000000; 
+  border-radius: None;
+  padding: 4px 8px; 
+  cursor: pointer;
+  font-family: 'Interphases Bold', sans-serif;
+  font-size: 0.75rem; 
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}
+
+
+.post-image {
+  width: 100%;
+  height: auto;
+  margin: 5px 0;
+}
+
+.post-body {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-top: 40px;
+}
+
+.highlight {
+  background-color: #FFB446;
+}
+
+.context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+  z-index: 1000;
+}
+
+.context-menu button {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: 'Interphases Regular', sans-serif;
+  font-size: 0.875rem;
+}
+
+.context-menu button:hover {
+  background-color: #F0F0F0;
+  border-color: #AAAAAA;
+}
+
+.context-menu button:focus {
+  outline: none; 
+}
+
+.copy-popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1001;
+  font-family: 'Interphases Regular', sans-serif;
+  font-size: 1rem;
+}
+
+
+.loading-screen {
+  height: 110vh; 
+  width: 100%; 
+  background-color: transparent; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 1.5rem; 
+  color: #000; 
+}
+
+.tags-container {
+  margin-top: 20px;
+}
+
+.tag-badge {
+  background-color: #FFB446 !important;
+  color: #000000;
+  font-size: 1em; 
+  padding: 8px 12px; 
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

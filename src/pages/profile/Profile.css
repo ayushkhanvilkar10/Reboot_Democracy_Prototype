@@ -1,0 +1,170 @@
+.profile-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.author-details h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Interphases Bold', sans-serif;
+  padding: 10px 0;
+}
+
+.author-details p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+  font-family: 'Interphases Regular', sans-serif;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.tab-buttons {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.tab-buttons button {
+  margin-right: 10px;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 1.125rem;
+}
+
+.active-tab {
+  background-color: #FFB446;
+  color: black;
+  border-radius: 0;
+  font-family: 'Interphases Bold', sans-serif;
+}
+
+.inactive-tab {
+  background-color: transparent;
+  color: black;
+  font-family: 'Interphases Regular', sans-serif;
+}
+
+.about-section {
+  width: 75%;
+  margin: 0;
+  padding: 20px;
+  background-color: transparent;
+  color: black;
+  font-family: 'Interphases Regular', sans-serif;
+}
+
+.posts-list-section {
+  padding: 20px;
+}
+
+.posts-list-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list-item {
+  margin-bottom: 20px;
+}
+
+.post-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-list-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+  margin-left: 0;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.post-list-text {
+  flex-grow: 1;
+}
+
+.post-list-text h5 {
+  margin: 0 0 10px 0;
+  font-family: 'Interphases Bold', sans-serif;
+}
+
+.post-list-text p {
+  margin: 0 0 10px 0;
+  font-family: 'Interphases Regular', sans-serif;
+}
+
+.post-list-image {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.posts-list-section select {
+  margin-left: 10px;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sort-by-text {
+  font-family: 'Interphases Regular', sans-serif;
+  margin-right: 10px;
+  font-size: 0.875rem;
+}
+
+.sort-dropdown {
+  font-family: 'Interphases Regular', sans-serif;
+}
+
+.post-list-date {
+  display: block;
+  font-size: 0.875rem;
+  color: #999;
+  font-family: 'Interphases Regular', sans-serif;
+  margin-top: 5px;
+}
+
+.loading-screen {
+  height: 110vh; 
+  width: 100%; 
+  background-color: transparent; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 1.5rem; 
+  color: #000; 
+}

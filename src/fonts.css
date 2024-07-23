@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Interphases Bold';
+    src: url('./assets/fonts/TT_Interphases_Pro_Mono_Trial_Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'Interphases Regular';
+    src: url('./assets/fonts/TT_Interphases_Pro_Mono_Trial_Regular.ttf') format('truetype');
+    font-weight: normal;
+  }
+  

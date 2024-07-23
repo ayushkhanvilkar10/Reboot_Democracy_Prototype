@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Interphases Bold';
+    src: url('../assets/fonts/TT_Interphases_Pro_Mono_Trial_Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Interphases Bold', sans-serif;
+    font-weight: bold;
+  }
+  
+  .footer a {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
+  
+  .footer a:hover {
+    color: #FFB446;
+  }
+  

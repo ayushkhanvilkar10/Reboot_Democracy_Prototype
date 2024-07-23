@@ -1,0 +1,42 @@
+.navbar-container {
+  background-color: #000000;
+}
+
+.navbar-brand {
+  text-decoration: none;
+}
+
+.navbar-brand h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family: 'Interphases Bold', sans-serif; 
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+  font-family: 'Interphases Regular', sans-serif; 
+  display: flex;
+  align-items: center; 
+  margin-right: 20px; 
+}
+
+.nav-link:hover {
+  color: #CCCCCC !important;
+}
+
+.sign-up-btn {
+  color: #000000; 
+  background-color: #FFB446; 
+  border: none; 
+  font-family: 'Interphases Bold', sans-serif; 
+  margin-left: 10px; 
+  display: flex;
+  align-items: center; 
+  border-radius: 0;
+}
+
+.sign-up-btn:hover {
+  background-color: #FFB446; 
+  opacity: 0.8; 
+  color: #000000; 
+}
